@@ -81,7 +81,7 @@ This application is intended for women who wish to monitor their cycles for thei
 
 To get started with Bloom, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/bloom.git`
+1. Clone the repository: `git clone https://github.com/Ilyas-12345/judgement_week.git`
 2. Open the project in Android Studio.
 3. Build and run the application on an Android emulator or device.
 
