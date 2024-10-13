@@ -98,15 +98,15 @@ Jetpack Compose упрощает процесс написания и обнов
 
 ### Допущения и зависимости
 
-- The application assumes that users have a stable internet connection to access their data.
-- The application assumes that users have a valid email address to create an account and receive notifications.
-- The application assumes that users have a device that is compatible with the latest version of Android and Jetpack Compose.
-- The application assumes that users have a basic understanding of how to use a calendar and how to navigate a mobile application.
-- The application assumes that users have a menstrual cycle that is regular and predictable.
-- The application assumes that users are consenting to the collection and storage of their data for the purpose of tracking their menstrual cycles.
-- The application assumes that users are using the application in a safe and secure environment.
-- The application assumes that users are using the application for personal use only and not for commercial purposes.
-- The application assumes that users are using the application in accordance with all applicable laws and regulations.
+- Приложение предполагает, что у пользователей есть стабильное интернет-соединение для доступа к своим данным.
+- Приложение предполагает, что у пользователей есть действующий адрес электронной почты для создания учетной записи и получения уведомлений.
+- Приложение предполагает, что у пользователей есть устройство, совместимое с последней версией Android и Jetpack Compose.
+- Приложение предполагает, что пользователи имеют базовое представление о том, как пользоваться календарем и как ориентироваться в мобильном приложении.
+- Приложение предполагает, что менструальный цикл пользователей является регулярным и предсказуемым.
+- Приложение предполагает, что пользователи дают согласие на сбор и хранение своих данных с целью отслеживания менструального цикла.
+- Приложение предполагает, что пользователи используют приложение в безопасной и надежной среде.
+- Приложение предполагает, что пользователи используют приложение только для личного пользования, а не в коммерческих целях.
+- Приложение предполагает, что пользователи используют приложение в соответствии со всеми применимыми законами и правилами.
 
 ## Начало работы
 
