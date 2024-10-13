@@ -4,68 +4,99 @@ Bloom is a mobile application built with Jetpack Compose that allows women to tr
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [User Requirements](#user-requirements)
-  - [Software Interfaces](#software-interfaces)
-  - [User Interface](#user-interface)
-  - [User Characteristics](#user-characteristics)
-- [System Requirements](#system-requirements)
-  - [Functional Requirements](#functional-requirements)
-  - [Non-Functional Requirements](#non-functional-requirements)
-    - [Quality Attributes](#quality-attributes)
-  - [Assumptions and Dependencies](#assumptions-and-dependencies)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
+- [Введение](#введение)
+- [Характеристики](#характеристики)
+- [Требования пользователя](#требования-пользователя)
+  - [Программные интерфейсы](#программные-интерфейсы)
+  - [Пользовательский интерфейс](#пользовательский-интерфейс)
+  - [Характеристики пользователя](#характеристики-пользователя)
+- [Системные требования](#системные-требования)
+  - [Функциональные требования](#функциональные-требования)
+  - [Нефункциональные требования](#нефункциональные-требования)
+    - [Атрибуты качества](#атрибуты-качества)
+  - [Допущения и зависимости](#допущения-и-зависимости)
+- [Начало работы](#начало-работы)
+- [Вклад](#вклад)  
 
-## Introduction
+## Введение
 
-Bloom is a dedicated application designed to monitor the health of women. Upon launching the app, users are greeted with a login page. 
-After successful authentication, users are presented with a calendar feature that allows them to track and manage their cycles. 
-Additionally, the app includes a sidebar where users can select the app's language and theme (light or dark).
+Bloom - это специализированное приложение, предназначенное для контроля за состоянием здоровья женщин. При запуске приложения пользователи попадают на страницу входа в систему. 
+После успешной аутентификации перед пользователями открывается календарь, позволяющий отслеживать и управлять своими циклами. 
+Кроме того, в приложении есть боковая панель, где пользователи могут выбрать язык и тему приложения (светлую или темную).
 
-## Features
+## Характеристики
 
-- User authentication: Log in with your credentials to access your account.
-- Cycle tracking: View and manage your menstrual cycles using a calendar interface.
-- Language selection: Choose your preferred language from a list of supported languages.
-- Theme selection: Select between a light and dark theme for the application.
+- Аутентификация пользователя: Войдите в систему с помощью своих учетных данных, чтобы получить доступ к своей учетной записи.
+- Отслеживание циклов: Просматривайте и управляйте своими менструальными циклами с помощью календарного интерфейса.
+- Выбор языка: Выберите предпочитаемый язык из списка поддерживаемых языков.
+- Выбор темы: Выберите светлую или темную тему для приложения.
 
-### Software Interfaces
+## Требования пользователя
 
-This project utilizes Jetpack Compose, a modern toolkit for building native Android UI. 
-Jetpack Compose simplifies the process of writing and updating the app's visual interface, offering a declarative approach.
-The main toolkit is Kotlin language, IDE Android studio
+### Программные интерфейсы
 
-### User Interface
+В этом проекте используется Jetpack Compose, современный набор инструментов для создания нативного пользовательского интерфейса Android. 
+Jetpack Compose упрощает процесс написания и обновления визуального интерфейса приложения, предлагая декларативный подход.
+Основным инструментарием является язык Kotlin, IDE Android studio
 
-Users will interact with the application through a Jetpack Compose GUI that includes text fields and a calendar.
+### Пользовательский интерфейс
 
-### User Characteristics
+Пользователи будут взаимодействовать с приложением через графический интерфейс Jetpack Compose, включающий текстовые поля и календарь.
+-[Аутентификация пользователя](mockup/image1.png)
+-[Отслеживание циклов](mockup/image2.png)
+-[Выбор языка](mockup/image3.png)
+-[Выбор темы](mockup/image4.png)
 
-This application is intended for women who wish to monitor their cycles for their health.
+### Характеристики пользователя
 
-## System Requirements
+Это приложение предназначено для женщин, которые хотят следить за своими циклами для поддержания здоровья.
 
-### Functional Requirements
+## Системные требования
 
-- User authentication: The application should allow users to log in using their credentials.
-- Cycle tracking: Users should be able to view and manage their menstrual cycles using a calendar interface.
-- Language selection: The application should support multiple languages, and users should be able to select their preferred language.
-- Theme selection: Users should be able to select between a light and dark theme for the application.
+### Функциональные требования
 
-### Non-Functional Requirements
+- Аутентификация пользователей: Приложение должно позволять пользователям входить в систему, используя свои учетные данные.
+- Отслеживание циклов: Пользователи должны иметь возможность просматривать и управлять своими менструальными циклами с помощью календарного интерфейса.
+- Выбор языка: Приложение должно поддерживать несколько языков, и пользователи должны иметь возможность выбрать предпочтительный язык.
+- Выбор темы: Пользователи должны иметь возможность выбирать между светлой и темной темой приложения.
+- 
+### Нефункциональные требования
 
-#### Quality Attributes
+#### Атрибуты качества
 
-- Reliability: The application should be able to accurately and consistently track menstrual cycles.
-- Security: The application should protect user data and ensure that it is only accessible to authorized users.
-- Usability: The application should be easy to use and navigate, with a clear and intuitive user interface.
-- Performance: The application should load quickly and respond to user input in a timely manner.
-- Compatibility: The application should be compatible with a wide range of Android devices and versions.
+## 1. Надежность
+- **Описание:** Надежность системы означает ее способность функционировать без сбоев и ошибок в течение длительного времени.
+- **Почему важно:** Поддерживает доверие пользователей и обеспечивает стабильную работу приложения.
+- **Как измеряется:**
+    - MTBF (Mean Time Between Failures): Среднее время между сбоями.
+    - MTTR (Mean Time To Repair): Среднее время на восстановление после сбоя.
+    - Уровень доступности: Процент времени, в течение которого система доступна для пользователей.
 
-### Assumptions and Dependencies
+## 2. Производительность
+- **Описание:** Производительность системы определяет, насколько быстро и эффективно приложение выполняет свои функции.
+- **Почему важно:** Высокая производительность важна для положительного пользовательского опыта и удержания пользователей.
+- **Как измеряется:**
+    - Время отклика: Время, необходимое для выполнения запросов пользователя.
+    - Пропускная способность: Количество запросов, которые система может обработать за единицу времени.
+    - Использование ресурсов: Процент использования процессора, памяти и других ресурсов.
+ 
+## 3. Масштабируемость
+- **Описание:** Масштабируемость системы означает ее способность эффективно работать при увеличении числа пользователей и объема данных.
+- **Почему важно:** Поддерживает производительность и надежность приложения при росте пользовательской базы.
+- **Как измеряется:**
+    - Горизонтальная масштабируемость: Способность системы добавлять новые серверы или узлы для обработки увеличивающейся нагрузки.
+    - Вертикальная масштабируемость: Способность системы увеличивать ресурсы существующих серверов (например, процессор, память).
+    - Тестирование нагрузки: Проверка системы на способность обрабатывать увеличивающееся количество запросов.
+
+## 4. Удобство использования
+- **Описание:** Удобство использования системы определяет, насколько легко и интуитивно пользователи могут взаимодействовать с приложением.
+- **Почему важно:** Важно для привлечения и удержания пользователей, а также для положительного пользовательского опыта.
+- **Как измеряется:**
+    - Оценка пользовательского опыта (UX): Проведение тестирования с реальными пользователями и сбор отзывов.
+    - Анализ поведения пользователей: Изучение данных о том, как пользователи взаимодействуют с приложением.
+    - Опросы и анкеты: Сбор обратной связи от пользователей о их опыте использования приложения.
+
+### Допущения и зависимости
 
 - The application assumes that users have a stable internet connection to access their data.
 - The application assumes that users have a valid email address to create an account and receive notifications.
@@ -77,24 +108,20 @@ This application is intended for women who wish to monitor their cycles for thei
 - The application assumes that users are using the application for personal use only and not for commercial purposes.
 - The application assumes that users are using the application in accordance with all applicable laws and regulations.
 
-## Getting Started
+## Начало работы
 
-To get started with Bloom, follow these steps:
+Чтобы начать работу с Bloom, выполните следующие действия:
 
-1. Clone the repository: `git clone https://github.com/Ilyas-12345/judgement_week.git`
-2. Open the project in Android Studio.
-3. Build and run the application on an Android emulator or device.
+1. Клонируйте репозиторий: `git clone https://github.com/Ilyas-12345/judgement_week.git`.
+2. Откройте проект в Android Studio.
+3. Соберите и запустите приложение на эмуляторе Android или устройстве.
 
-## Contributing
+## Вклад
 
-Contributions are welcome! If you'd like to contribute to Bloom, please follow these guidelines:
+Вклад приветствуется! Если вы хотите внести свой вклад в Bloom, пожалуйста, следуйте следующим правилам:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with a clear and concise commit message.
-4. Push your changes to your fork.
-5. Submit a pull request to the main repository.
-
-## License
-
-Bloom is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+1. Форкните репозиторий.
+2. Создайте новую ветку для вашей функции или исправления ошибки.
+3. Внесите изменения и зафиксируйте их с четким и ясным сообщением о фиксации.
+4. Переместите изменения в свою ветку.
+5. Отправьте запрос на внесение изменений в основной репозиторий.
