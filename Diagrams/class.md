@@ -1,6 +1,6 @@
 # Диаграмма классов  
 
-![Диаграмма классов](https://github.com/mxrpheus6/Financik/blob/master/Diagrams/img/classDiagram.png) 
+![Диаграмма классов](https://github.com/Ilyas-12345/judgement_week/blob/main/Diagrams/image/classDiagram.png) 
 
 # Глоссарий
 
